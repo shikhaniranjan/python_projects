@@ -24,7 +24,7 @@ class QuickSort():
         return l
 
 
-l = [6,9,10,2,8]
+l = [6,9,10,2,8,2.12 , -7]
 QS = QuickSort()
 n =len(l)
 sorted_list = QS.quick_sort(l,0,n-1)
